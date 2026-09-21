@@ -5,9 +5,10 @@
 #                "The main function open the products file and let the user
 #                 choose one of these options: Buy a product; Shopping cart 
 #                 list; Payment method; and Log off"
-#              > products_file() - return dictionary "p_file"
-#                "This function open the products file and return the 
-#                 variable to the mainc function"
+#              > get_pim() - return dictionary "pim_file"
+#                "This function open the Product Information Management 
+#                 file and return the variable to the mainc function."
+#              > get
 #       - Client Cart > client_cart(user_products_cart) - return dictionary "updated_cart"
 #       - Payment method > payment_method(green_name_account, account_m_payment) return bool
 #       - Log in > user_account() - return "green_name_account" and "account_m_payment"
@@ -25,10 +26,15 @@
 # 09/12/2026 11:00am - 1:08pm - Continue creating the functions plan and config the Git Hub.
 # 09/14/2026 06:34pm - 07:42pm - Update the plans, create the menu options and the variables in the 
 # main function program the log off option to end the program.
-# 
+# 09/17/2026 10:19am - 10:56am - Update the functions plan and the functions.
+# 09/21/2026 10:18am - - 
 
 
-def products_file():
+def get_pim():
+    """
+    This function open the Product Information Management 
+    file and return the variable to the mainc function.
+    """
     pass
 def client_cart(user_products_cart):
     pass
@@ -40,11 +46,12 @@ def historic(user_products_cart):
     pass
 def main():
     """
-    The main function open the products file and let the user
+    The main function open the products file and let the user 
     choose one of these options: Buy a product; Shopping cart 
     list; Payment method; and Log off.
     """
-    p_file = products_file()
+    pim_file = get_pim()
+
     menu = ["Log in", "Search and Buy", "Cart", "Pay", "Log off"]
     user_option = ""
     client_account = ""
