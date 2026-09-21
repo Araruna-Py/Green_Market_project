@@ -27,7 +27,8 @@
 # 09/14/2026 06:34pm - 07:42pm - Update the plans, create the menu options and the variables in the 
 # main function program the log off option to end the program.
 # 09/17/2026 10:19am - 10:56am - Update the functions plan and the functions.
-# 09/21/2026 10:18am - - 
+# 09/21/2026 10:18am - 11:00am - Create the PIM csv file. 
+# 09/21/2026 11:39am - 12:55pm - Add 6 products at the PIM file.
 
 
 def get_pim():
